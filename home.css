@@ -89,7 +89,7 @@ img.whitetri {
   align-self: baseline;
   margin-top: -3px;
   align-self: baseline;
-  height: auto;
+  height: 80px;
 }
 
 img.tri {
@@ -97,7 +97,7 @@ img.tri {
   display: flex;
   align-self: baseline;
   margin-top: -3px;
-  height: auto;
+  height: 80px;
 }
 
 img.profile {
@@ -193,7 +193,7 @@ img.beigetri {
   align-self: baseline;
   margin-top: -3px;
   align-self: baseline;
-  height: auto;
+  height: 80px;
 }
 
 h1.my-4 {
