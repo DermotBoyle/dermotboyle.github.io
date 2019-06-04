@@ -89,7 +89,7 @@ img.whitetri {
   align-self: baseline;
   margin-top: -3px;
   align-self: baseline;
-  height: 100px;
+  height: auto;
 }
 
 img.tri {
@@ -97,6 +97,7 @@ img.tri {
   display: flex;
   align-self: baseline;
   margin-top: -3px;
+  height: auto;
 }
 
 img.profile {
@@ -118,7 +119,7 @@ p.profiletext {
 h2.examples {
   text-align: center;
   font-family: "Slabo 27px", serif;
-  font-size: 50px;
+  font-size: 2rem;
   color: #2f3b42;
 }
 
@@ -192,7 +193,7 @@ img.beigetri {
   align-self: baseline;
   margin-top: -3px;
   align-self: baseline;
-  height: 100px;
+  height: auto;
 }
 
 h1.my-4 {
