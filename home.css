@@ -1,0 +1,271 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .col-md-8 {
+    margin-left: -2rem;
+  }
+}
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .col-md-8 {
+    margin-left: 0.5rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .col-md-8 {
+    margin-left: 0.5rem;
+  }
+  p.future {
+    margin-left: 0;
+  }
+}
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .col-md-8 {
+    margin-left: -3rem;
+    margin-right: auto;
+  }
+
+  p.future {
+    margin-left: 6rem;
+    font-weight: bold;
+    font-family: "Slabo 27px", serif;
+  }
+
+  p.work {
+    font-weight: bold;
+    font-family: "Slabo 27px", serif;
+  }
+
+  div.future {
+    margin-left: 16rem;
+  }
+
+  .col-md-4 {
+    display: inline-block;
+  }
+}
+
+img.logo {
+  width: 120px;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+  background-color: #47555e;
+  color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #93896d;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #93896d;
+}
+
+.col-md-8 {
+  display: inline-block;
+}
+
+div.svgtri {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+div.svgwhitetri {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+img.whitetri {
+  display: flex;
+  align-self: baseline;
+  margin-top: -3px;
+  align-self: baseline;
+  height: 100px;
+}
+
+img.tri {
+  align-items: baseline;
+  display: flex;
+  align-self: baseline;
+  margin-top: -3px;
+}
+
+img.profile {
+  width: 40%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #818b92;
+  shape-outside: circle(50%);
+  float: left;
+  margin: 16px;
+}
+
+p.profiletext {
+  font-family: "Slabo 27px", serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+h2.examples {
+  text-align: center;
+  font-family: "Slabo 27px", serif;
+  font-size: 50px;
+  color: #2f3b42;
+}
+
+p.techrotation {
+  transform: rotate(270deg);
+  color: #2f3b42;
+  position: absolute;
+  margin-top: 200px;
+  font-size: 30px;
+  font-family: "Slabo 27px", serif;
+}
+
+i.fab:hover {
+  color: #f8981d;
+}
+
+li.works {
+  margin-left: 110px;
+  margin-top: 20px;
+  list-style: none;
+  font-family: "Slabo 27px", serif;
+  color: #675a47;
+  font-weight: bold;
+}
+
+li.works:hover {
+  color: #818b92;
+}
+
+hr.tech {
+  margin-left: 100px;
+}
+
+div.container2 {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #93896d;
+}
+
+div.card-deck {
+  margin-top: 100px;
+  display: inline-flex;
+  margin-bottom: 60px;
+}
+
+div.card-deck .card {
+  border-radius: 2.25rem;
+}
+
+img.card-img-top {
+  height: 200px;
+  border-top-left-radius: calc(2.25rem - 1px);
+  border-top-right-radius: calc(2.25rem - 1px);
+  border: ridge;
+}
+
+section.mb-4 {
+  padding: 25px;
+  padding-top: 0;
+}
+
+div.beigetri {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+img.beigetri {
+  display: flex;
+  align-self: baseline;
+  margin-top: -3px;
+  align-self: baseline;
+  height: 100px;
+}
+
+h1.my-4 {
+  margin-top: 1.5rem;
+}
+
+div.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+div.footlogos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+div.container3 {
+  background-color: #818b92;
+}
+
+i.fa-github:before {
+  color: black;
+}
+
+i.fa-linked-in-in {
+  color: #675a47;
+}
+
+i.fa-linkedin-in:before {
+  color: black;
+}
+
+i.fa-twitter:before {
+  color: black;
+}
+
+i.fa-js-square {
+  color: #f7df1e;
+  background-color: #2f3b42;
+}
+
+i.fa-python {
+  color: #4b88ba;
+}
+
+i.fa-java {
+  color: #f8981d;
+}
+
+i.fa-node {
+  color: #669b60;
+}
+
+i.fa-adobe {
+  color: #ff0000;
+}
+
+i.fa-css3 {
+  color: #1c88c7;
+}
+
+i.fa-react {
+  animation: rotation 5s infinite linear;
+  transform: rotate(360deg);
+  color: #61dafb;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
