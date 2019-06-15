@@ -5,21 +5,7 @@
   }
 }
 
-/*Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .col-md-8 {
-    margin-left: 0.5rem;
-  }
-}
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .col-md-8 {
-    margin-left: 0.5rem;
-  }
-  p.future {
-    margin-left: 0;
-  }
-}
+
 /*Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .col-md-8 {
