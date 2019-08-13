@@ -122,7 +122,8 @@ h2.examples {
   text-align: center;
   font-family: "Kalam", cursive;
   font-size: 3em;
-  color: white;
+  color: black;
+  margin-top: 3%;
 }
 
 p.techrotation {
@@ -163,7 +164,7 @@ div.container2 {
 }
 
 div.card-deck {
-  margin-top: 100px;
+  margin-top: 50px;
   display: inline-flex;
   margin-bottom: 60px;
 }
